@@ -16,12 +16,13 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     background-color: #245ca63c;
-    width: 340px;
+    width: 360px;
     margin-top: 30px;
     border-radius: 10px;
     align-items: center;
     padding: 20px;
     position: relative;
+
 }
 
 .containerAll > h1{
@@ -74,4 +75,11 @@ input[type = "reset"]{
     position: relative;
     right: 20px;
     color: #02132a;
+    text-align: center;
+}
+
+#iResultado img {
+    display: block;      /* garante que a img seja tratada como bloco */
+    margin: 10px auto;   /* centraliza horizontalmente */
+    max-width: 200px;    /* limita o tamanho da imagem */
 }
