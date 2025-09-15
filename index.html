@@ -8,6 +8,30 @@
     <script src="js/script.js" defer></script>
 </head>
 <body>
+    <div class="containerAll">
+        <h1>Calculador de IMC</h1>
+
+        <form action="#" id="formContainer">
+            <label for="iAltura">
+                Altura(ex:1.56):
+                <input type="number" name="altura" id="iAltura" placeholder="Digite sua Altura" required>
+            </label>
+
+            <label for="iPeso">
+                Peso(ex: 78.50):
+                <input type="number" name="peso" id="iPeso"  placeholder="Digite seu Peso" required>
+            </label>
+
+            <div class="containerbotoes">
+                <input type="submit" id="btnCalcular" value="Calcular">
+                <input type="reset" id="btnReset" value="Limpar">
+            </div>
+        </form>
+
+        <p id="iResultado"></p>
+        
+        
+    </div>
     
 </body>
 </html>
